@@ -16,6 +16,8 @@
 		D348180D2AE5576300A3CAD2 /* AutoLayout_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348180C2AE5576300A3CAD2 /* AutoLayout_storyboardTests.swift */; };
 		D34818172AE5576300A3CAD2 /* AutoLayout_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34818162AE5576300A3CAD2 /* AutoLayout_storyboardUITests.swift */; };
 		D34818192AE5576300A3CAD2 /* AutoLayout_storyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34818182AE5576300A3CAD2 /* AutoLayout_storyboardUITestsLaunchTests.swift */; };
+		D3E2B6732AF8FA3B00C932E7 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2B6712AF8FA2600C932E7 /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		D3E2B6742AF8FA4200C932E7 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2B6702AF8FA2500C932E7 /* Montserrat-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D34818122AE5576300A3CAD2 /* AutoLayout_storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_storyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34818162AE5576300A3CAD2 /* AutoLayout_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_storyboardUITests.swift; sourceTree = "<group>"; };
 		D34818182AE5576300A3CAD2 /* AutoLayout_storyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_storyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3E2B6702AF8FA2500C932E7 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D3E2B6712AF8FA2600C932E7 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				D34817FE2AE5576200A3CAD2 /* Assets.xcassets */,
 				D34818002AE5576200A3CAD2 /* LaunchScreen.storyboard */,
 				D34818032AE5576300A3CAD2 /* Info.plist */,
+				D3E2B6722AF8FA2B00C932E7 /* Fonts */,
 			);
 			path = AutoLayout_storyboard;
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				D34818182AE5576300A3CAD2 /* AutoLayout_storyboardUITestsLaunchTests.swift */,
 			);
 			path = AutoLayout_storyboardUITests;
+			sourceTree = "<group>";
+		};
+		D3E2B6722AF8FA2B00C932E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2B6712AF8FA2600C932E7 /* Montserrat-Italic-VariableFont_wght.ttf */,
+				D3E2B6702AF8FA2500C932E7 /* Montserrat-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E2B6732AF8FA3B00C932E7 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
 				D34818022AE5576200A3CAD2 /* LaunchScreen.storyboard in Resources */,
 				D34817FF2AE5576200A3CAD2 /* Assets.xcassets in Resources */,
 				D34817FD2AE5575400A3CAD2 /* Main.storyboard in Resources */,
+				D3E2B6742AF8FA4200C932E7 /* Montserrat-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
